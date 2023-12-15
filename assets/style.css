@@ -1,5 +1,7 @@
 *{
-    marigin: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 body{
     background-color: beige;
@@ -7,10 +9,40 @@ body{
 }
 
 .bg-green{
-    background-color: forestgreen;
+    background-color: darkolivegreen;
     color: beige;
+    padding: 10px;
+    text-align: right;
 }
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-size: 12px;
+  }
+
+hr {  
+    height: 5px;  
+    background-color: lightpink;  
+    border: none;  
+} 
+
+  .nw-wbst{
+    text-align: center;
+  }
 
 #contact{
     background-color: lightpink;
+    text-align: center;
+    padding: 25px;
 }
+
+#footer{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+    

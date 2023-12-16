@@ -30,7 +30,17 @@ hr {
 
   .nw-wbst{
     text-align: center;
+    padding: 10px;
   }
+
+#border{
+    padding: 10px;
+}
+
+#img-writing {
+    font-size: 12px;
+    padding: 8px; 
+}
 
 #contact{
     background-color: lightpink;
@@ -38,6 +48,10 @@ hr {
     padding: 25px;
 }
 
+#info{
+    display: inline;
+    border: 10px;
+}
 #footer{
     background-color: darkolivegreen;
     color: white;

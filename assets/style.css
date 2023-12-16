@@ -24,7 +24,7 @@ ul li {
 
 hr {  
     height: 5px;  
-    background-color: lightpink;  
+    background-color: brown;  
     border: none;  
 } 
 
@@ -48,10 +48,32 @@ hr {
     padding: 25px;
 }
 
-#info{
-    display: inline;
-    border: 10px;
+#box{
+    width: 300px;
+    height: 60px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
 }
+
+h3{
+    padding: 10px;
+}
+
+#info{
+    border: 10px;
+    font-size: 12px;
+}
+
+#button {
+height: 25px;
+width: 75px;
+background: rgb(64, 24, 24);
+color: white;
+text-align: center;
+}
+
 #footer{
     background-color: darkolivegreen;
     color: white;
